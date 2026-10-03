@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Oshmita
 last_name: Sarkar
 contact_note: >
-  Reach out via email or LinkedIn for collaborations! Happy to provide book recommndations as well :)
+  Reach out via email or LinkedIn for collaborations! Happy to provide book recommendations as well :)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -205,8 +205,6 @@ collections:
       layout: post
     output: true
   projects:
-    output: true
-  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
