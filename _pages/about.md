@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Oshmita Sarkar
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
