@@ -1,10 +1,9 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Oshmita Sarkar
+  label: Sofware Developer
+  email: oshmitas.26@gmail.com
+  location: Berlin, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
     - network: X
@@ -12,88 +11,48 @@ cv:
     - network: GitHub
       username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: Kalinga Institute of Industrial Technology
+        location: Odisha, India
+        url: https://kiit.ac.in/
+        area: Computer Science
+        studyType: Bachelor's Degree
+        start_date: 2020
+        end_date: 2024
         score: ""
         courses: "Theory of Relativity"
         highlights:
           - Description 1.
           - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
+      - company: Amazon Web services
+        position: Software Developer
         location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+        start_date: 2025
+        end_date: ""
+        summary: Making AWS Consoles robust
+        highlights: ""
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Forma.ai
+        position: Analytics Engineer
+        location: Pune, India
+        start_date: 2023
+        end_date: 2025
+        highlights: ""
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
+      - company: HackForClimate G20 Hackathon
+        position: Judge/Moderator
+        location: Odisha, India
         start_date: 2014-04-01
         end_date: 2015-07-01
         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Awarded the 'Best Moderator' prize"
 
     Awards:
       - title: Nobel Prize in Physics
@@ -143,11 +102,17 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Bengali
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
+
+      - name: Hindi,
+        summary: "Fluent"
+
+      - name: Tamil,
+        summary: "Beginner"
 
     Interests:
       - name: Physics
@@ -182,8 +147,8 @@ cv:
     References:
       - name: Professor John Doe
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: first ref
 
       - name: Professor Jane Smith
         icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: second ref

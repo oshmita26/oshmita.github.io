@@ -10,4 +10,12 @@ collection: books
 >
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
-## Books that I am reading, have read, or will read
+## Recent books that I have read
+
+- A brief history of intelligence by Max Bennet
+- The worlds I see by Dr. Fei Fei Li
+- The Coming Wave by Mustafa Suleyman
+
+## Reading for pleasure
+
+- Dream Count by Chimamanda Ngozi Adichie
