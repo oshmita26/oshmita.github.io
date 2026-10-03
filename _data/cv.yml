@@ -4,10 +4,8 @@ cv:
   location: Berlin, Germany
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: oshmita26
     - network: LinkedIn
       username: oshmita-sarkar-5ab04a216
 
@@ -32,17 +30,15 @@ cv:
         location: Berlin, Germany
         start_date: 2025
         end_date: present
-        summary: Making AWS Consoles robust
         highlights:
-          - Making AWS Consoles robust.
-
+          - Making AWS Consoles robust
       - company: Forma.ai
         position: Analytics Engineer
         location: Pune, India
         start_date: 2023
         end_date: 2025
         highlights:
-          - Built and maintained analytics data pipelines.
+          - Built and maintained analytics data pipelines
 
     Volunteer:
       - company: HackForClimate G20 Hackathon
@@ -137,12 +133,15 @@ cv:
 
     Projects:
       - name: Music Recommendation Web App
+        url: https://oshmita26.github.io/oshmita.github.io/projects/1_project/
         summary: This is a music recommendation engine that suggests songs to the user through an interactive UI, based on their past listening history. For, the machine learning model, we have used KMeans Clustering Algorithm which is a type of unsupervised learning.
 
       - name: Medi-Assist
+        url: https://oshmita26.github.io/oshmita.github.io/projects/2_project/
         summary: The project aims to develop a software that utilises ChatGPT to simplify complex medical jargons between patients and doctors. By taking the symptom as the input we have a detailed diagnosis and medication recommendations for the patient in the user interface. Based on that the doctor may add or remove stuff from there.
 
       - name: Bullying the bully
+        url: https://oshmita26.github.io/oshmita.github.io/projects/3_project/
         summary: This project aims towards conserving anti-bullying rights on social media. It is built with the objective that users of social media are not a victim of cyberbullying or trolls online. We created a NLP based discord bot using the dataset we collected from Kaggle, that takes the recent texted message from the server, runs analysis and predicts if the text is offensive to any person on the server or not. If it finds the text offensive then it deletes the text and messages the Administrator of the server to block the person that sent the message.
 
     References:
