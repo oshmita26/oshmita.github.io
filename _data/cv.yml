@@ -1,9 +1,7 @@
 cv:
   name: Oshmita Sarkar
-  label: Sofware Developer
   email: oshmitas.26@gmail.com
   location: Berlin, Germany
-  image: ""
 
   social_networks:
     - network: X
@@ -11,7 +9,7 @@ cv:
     - network: GitHub
       username: example
     - network: LinkedIn
-      username:
+      username: oshmita-sarkar-5ab04a216
 
   sections:
     Education:
@@ -33,16 +31,18 @@ cv:
         position: Software Developer
         location: Berlin, Germany
         start_date: 2025
-        end_date: ""
+        end_date: present
         summary: Making AWS Consoles robust
-        highlights: ""
+        highlights:
+          - Making AWS Consoles robust.
 
       - company: Forma.ai
         position: Analytics Engineer
         location: Pune, India
         start_date: 2023
         end_date: 2025
-        highlights: ""
+        highlights:
+          - Built and maintained analytics data pipelines.
 
     Volunteer:
       - company: HackForClimate G20 Hackathon
@@ -108,10 +108,10 @@ cv:
       - name: English
         summary: "Fluent"
 
-      - name: Hindi,
+      - name: Hindi
         summary: "Fluent"
 
-      - name: Tamil,
+      - name: Tamil
         summary: "Beginner"
 
     Interests:
@@ -120,9 +120,9 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
+      - name: Deep Learning
         date: 2018-01-01
-        issuer: Stanford University
+        issuer: DeepLearning.ai
         icon: fa-solid fa-location-dot
 
       - name: Quantum Computing
@@ -136,13 +136,14 @@ cv:
         icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Music Recommendation Web App
+        summary: This is a music recommendation engine that suggests songs to the user through an interactive UI, based on their past listening history. For, the machine learning model, we have used KMeans Clustering Algorithm which is a type of unsupervised learning.
+
+      - name: Medi-Assist
+        summary: The project aims to develop a software that utilises ChatGPT to simplify complex medical jargons between patients and doctors. By taking the symptom as the input we have a detailed diagnosis and medication recommendations for the patient in the user interface. Based on that the doctor may add or remove stuff from there.
+
+      - name: Bullying the bully
+        summary: This project aims towards conserving anti-bullying rights on social media. It is built with the objective that users of social media are not a victim of cyberbullying or trolls online. We created a NLP based discord bot using the dataset we collected from Kaggle, that takes the recent texted message from the server, runs analysis and predicts if the text is offensive to any person on the server or not. If it finds the text offensive then it deletes the text and messages the Administrator of the server to block the person that sent the message.
 
     References:
       - name: Professor John Doe
