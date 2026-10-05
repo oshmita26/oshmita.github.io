@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /organizations/
-title: 
+title:
 description: Organizations I am a part of and volunteer work I have done.
 nav: true
 nav_order: 6
@@ -28,7 +28,6 @@ nav_order: 6
 
 - **Hack for Climate, G20** — Judge/Moderator · _2023_
   Mentored 70+ students from Bhubaneswar universities, guiding projects, improving deep-learning models, and strengthening data-handling techniques.
-
 
 - **Harvard Project for Asian and International Relations (HPAIR)** — Delegate · _2023_
   Accepted as a delegate in the HPAIR Conference 2023.

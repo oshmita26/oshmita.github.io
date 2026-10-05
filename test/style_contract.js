@@ -102,7 +102,7 @@ for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "asse
       continue;
     }
     failures.push(
-      `Starter core component path \`${forbiddenPath}\` may only contain audited overrides (${allowlist.join(", ")}); found disallowed file(s): ${disallowed.join(", ")}.`,
+      `Starter core component path \`${forbiddenPath}\` may only contain audited overrides (${allowlist.join(", ")}); found disallowed file(s): ${disallowed.join(", ")}.`
     );
     continue;
   }
