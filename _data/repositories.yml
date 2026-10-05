@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - oshmita26
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - oshmita26/Automatic-number-plate-recognition-with-PaddleOCR
+  - oshmita26/glucagon_receptor
+  - oshmita26/Best_ad_predictor_using_Thompson_Sampling
+  - oshmita26/The-hottest-topics-in-machine-learning
+  - oshmita26/medi-assist
+  - oshmita26/Learning-Frequency-Aware-Latent-Representations-for-Subpixel-Motion-Analysis

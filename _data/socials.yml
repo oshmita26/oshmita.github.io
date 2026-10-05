@@ -4,5 +4,6 @@
 cv_pdf: /assets/pdf/Oshmita_Sarkar_Updated_Resume_2026.pdf # path to your CV PDF file
 email: oshmitas.26@gmail.com # your email address
 linkedin_username: oshmita-sarkar-5ab04a216 # your linkedin username
+github_username: oshmita26 # your github username
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
