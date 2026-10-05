@@ -11,14 +11,14 @@ covers: /assets/img/book_covers/
 > -- Virginia Woolf (1975). "The Letters of Virginia Woolf: 1932-1935"
 
 {% comment %}
-  Card-based bookshelf grouped into named sections via each book's `shelf:` field in _books/*.md.
-  Allowed shelf values: currently-reading, favorites, academic, non-academic.
-  Covers are optional — set `cover`, `olid`, or `isbn` in a book's front matter to show its image;
-  otherwise a text placeholder card is rendered. Card markup/classes mirror the gem book-shelf layout
-  so styling (figure.cover, figcaption status badges) is inherited from al_folio_core.
+Card-based bookshelf grouped into named sections via each book's `shelf:` field in \_books/\*.md.
+Allowed shelf values: currently-reading, favorites, academic, non-academic.
+Covers are optional — set `cover`, `olid`, or `isbn` in a book's front matter to show its image;
+otherwise a text placeholder card is rendered. Card markup/classes mirror the gem book-shelf layout
+so styling (figure.cover, figcaption status badges) is inherited from al_folio_core.
 
-  NOTE: HTML lines below are intentionally NOT indented. Kramdown treats lines indented by
-  4+ spaces as a code block, which would print the markup instead of rendering it.
+NOTE: HTML lines below are intentionally NOT indented. Kramdown treats lines indented by
+4+ spaces as a code block, which would print the markup instead of rendering it.
 {% endcomment %}
 
 {% assign sections = "currently-reading,favorites,academic,non-academic" | split: "," %}
@@ -27,6 +27,7 @@ covers: /assets/img/book_covers/
 {% for shelf in sections %}
 {% assign shelf_books = site.books | where: "shelf", shelf %}
 {% if shelf_books.size > 0 %}
+
 <h2 id="{{ shelf }}">{{ section_titles[forloop.index0] }}</h2>
 <div class="books-grid" style="display:flex;flex-wrap:wrap;align-items:flex-start;">
 {% for item in shelf_books %}
