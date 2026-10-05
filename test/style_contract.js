@@ -65,10 +65,49 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
-  if (exists(forbiddenPath)) {
-    failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+// Audited local overrides of gem-owned files. A site built from this template MAY legally
+// shadow gem files (see docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo); such
+// overrides are tracked in .al-folio-overrides.yml. We permit a forbidden component directory
+// ONLY when its entire contents are the explicitly allowlisted override files below — any other
+// file under it still fails the contract.
+const allowedOverrides = {
+  _includes: ["repository/repo_user.liquid"],
+};
+
+const listFilesRecursively = (baseRel, relPath = baseRel) => {
+  const abs = path.join(root, relPath);
+  const out = [];
+  for (const entry of fs.readdirSync(abs, { withFileTypes: true })) {
+    const childRel = path.join(relPath, entry.name);
+    if (entry.isDirectory()) {
+      out.push(...listFilesRecursively(baseRel, childRel));
+    } else {
+      out.push(path.relative(path.join(root, baseRel), path.join(root, childRel)));
+    }
   }
+  return out;
+};
+
+for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+  if (!exists(forbiddenPath)) {
+    continue;
+  }
+
+  const allowlist = allowedOverrides[forbiddenPath];
+  if (allowlist) {
+    const actual = listFilesRecursively(forbiddenPath).map((p) => p.split(path.sep).join("/"));
+    const disallowed = actual.filter((f) => !allowlist.includes(f));
+    if (disallowed.length === 0) {
+      // Directory exists but contains only audited, allowlisted overrides — permitted.
+      continue;
+    }
+    failures.push(
+      `Starter core component path \`${forbiddenPath}\` may only contain audited overrides (${allowlist.join(", ")}); found disallowed file(s): ${disallowed.join(", ")}.`,
+    );
+    continue;
+  }
+
+  failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
 }
 
 for (const forbiddenGlobPath of [
