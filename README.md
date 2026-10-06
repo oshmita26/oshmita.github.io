@@ -9,7 +9,7 @@ GitHub Pages.
 
 ## Content
 
-- **Projects** — `_projects/` 
+- **Projects** — `_projects/`
 - **CV** — `_data/cv.yml` (rendered to the `/cv/` page and a PDF via RenderCV)
 - **Bookshelf** — `_books/` with cover images in `assets/img/book_covers/`
 - **Organizations** — `_pages/organizations.md`
