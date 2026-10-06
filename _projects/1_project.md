@@ -17,20 +17,22 @@ giscus_comments: true
   otherwise visitors hit a sign-in wall.
   To swap the video, replace the FILE_ID in the /preview URL below.
 
-  Full-bleed: the wrapper breaks out of al-folio's constrained content column using
-  width:100vw with a calc(50% - 50vw) margin so the player spans the full page width.
+  The video matches the text content width (it sits in al-folio's normal content
+  column, respecting the same left/right margins as the surrounding text). The iframe
+  is given an explicit responsive height (clamp) and fills 100% of its wrapper so the
+  Drive player uses the whole allocated area instead of letterboxing a small video.
 -->
 
-<div style="width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw);">
-    <div class="ratio ratio-16x9 z-depth-1">
-        <iframe
-            src="https://drive.google.com/file/d/1-yi-LAxXLsPTY_gVTHWhgaRI0YJxzydj/preview"
-            title="Music recommendations web app demo"
-            allow="autoplay"
-            allowfullscreen
-            loading="lazy"
-        ></iframe>
-    </div>
+<div style="width: 100%; height: clamp(480px, 70vh, 820px);">
+    <iframe
+        src="https://drive.google.com/file/d/1-yi-LAxXLsPTY_gVTHWhgaRI0YJxzydj/preview"
+        title="Music recommendations web app demo"
+        class="z-depth-1"
+        style="width: 100%; height: 100%; border: 0; display: block;"
+        allow="autoplay"
+        allowfullscreen
+        loading="lazy"
+    ></iframe>
 </div>
 <div class="caption">
     A short walkthrough of the Music recommendations web app.
