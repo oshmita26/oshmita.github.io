@@ -27,7 +27,7 @@ cv:
         position: Software Developer
         location: Berlin, Germany
         start_date: 2025
-        end_date: Present
+        end_date: present
         highlights:
           - Making AWS Consoles robust
       - company: Forma.ai
@@ -69,26 +69,32 @@ cv:
           - Worked on 3-D camera capture using the OpenCV library in Python.
 
     Awards:
-      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Operational Excellence Award'
+      - name: Operational Excellence Award
+        title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Operational Excellence Award'
         awarder: Amazon
         date: 2026-08
 
-      - title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Certificate of Merit'
+      - name: Certificate of Merit
+        title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Certificate of Merit'
         awarder: Army Welfare Education Society
         date: 2020-04
 
-      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Inter-APS English Debating Championships'
+      - name: Inter-APS English Debating Championships
+        title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Inter-APS English Debating Championships'
         date: 2018-09
 
-      - title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Excellence in Indian Classical'
+      - name: Excellence in Indian Classical
+        title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Excellence in Indian Classical'
         awarder: The Velammal International School
         date: 2016-01
 
-      - title: '<i class="fa-solid fa-medal" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Merit Scholar'
+      - name: Merit Scholar
+        title: '<i class="fa-solid fa-medal" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Merit Scholar'
         awarder: The Velammal International School
         date: 2016-01
 
-      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>VVM Sastra Pratibha'
+      - name: VVM Sastra Pratibha
+        title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>VVM Sastra Pratibha'
         date: 2015-04
 
     Languages:
