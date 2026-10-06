@@ -7,8 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-## Organizations
-
 <!-- Replace the entries below with the organizations you are a member of. -->
 
 - **IoT Lab, KIIT (Research)** — Co-founder and lead · _2022–2023_

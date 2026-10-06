@@ -37,3 +37,23 @@ giscus_comments: true
 <div class="caption">
     A short walkthrough of the Music recommendations web app.
 </div>
+
+## Approach
+
+<!-- Second Drive video. Same content-width formatting as the demo above.
+     Sharing must be "Anyone with the link - Viewer" or visitors hit a sign-in wall. -->
+
+<div style="width: 100%; height: clamp(480px, 70vh, 820px);">
+    <iframe
+        src="https://drive.google.com/file/d/14YJ-B4-IajRyraf4M1l8qAQJcduE7UOo/preview"
+        title="Music recommendations web app - approach"
+        class="z-depth-1"
+        style="width: 100%; height: 100%; border: 0; display: block;"
+        allow="autoplay"
+        allowfullscreen
+        loading="lazy"
+    ></iframe>
+</div>
+<div class="caption">
+    A walkthrough of the K-means clustering approach used in this project.
+</div>

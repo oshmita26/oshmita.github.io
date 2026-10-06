@@ -3,7 +3,7 @@ layout: book-review
 title: Dream Count
 author: Chimamanda Ngozi Adichie
 shelf: non-academic
-status: Finished
+status: Reading
 cover: dream_count.jpeg
 ---
 
