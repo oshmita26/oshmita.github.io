@@ -19,8 +19,8 @@ giscus_comments: true
 -->
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="ratio ratio-16x9 rounded z-depth-1">
+    <div class="col-12">
+        <div class="ratio ratio-16x9 rounded z-depth-1" style="min-height: 520px;">
             <iframe
                 src="https://drive.google.com/file/d/13_3ZDKrJtSN-k7RAZigQpQmvJiogQ6MP/preview"
                 title="Medi-assist demo"

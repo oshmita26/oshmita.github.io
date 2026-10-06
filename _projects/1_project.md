@@ -19,10 +19,10 @@ giscus_comments: true
 -->
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="ratio ratio-16x9 rounded z-depth-1">
+    <div class="col-12">
+        <div class="ratio ratio-16x9 rounded z-depth-1" style="min-height: 520px;">
             <iframe
-                src="https://drive.google.com/file/d/1FavvLiP0YwIgycfxmayTEbSrLa2cp0MM/preview"
+                src="https://drive.google.com/file/d/1-yi-LAxXLsPTY_gVTHWhgaRI0YJxzydj/preview"
                 title="Music recommendations web app demo"
                 allow="autoplay"
                 allowfullscreen
