@@ -19,7 +19,7 @@ cv:
         start_date: 2020
         end_date: 2024
         score: ""
-        courses: "Theory of Relativity"
+        courses: ""
         highlights:
           - Description 1.
           - Description 2.
@@ -38,17 +38,37 @@ cv:
         start_date: 2023
         end_date: 2025
         highlights:
-          - Built and maintained analytics data pipelines
-
-    Volunteer:
-      - company: HackForClimate G20 Hackathon
-        position: Judge/Moderator
-        location: Odisha, India
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - Built and maintained analytics data pipelines for 10,000+ users
+      - company: Metapix
+        position: AI Fellow
+        location: George Town, Cayman Islands · Remote
+        start_date: 2023-03
+        end_date: 2023-06
         highlights:
-          - "Awarded the 'Best Moderator' prize"
+          - Chosen as one of the 30 AI Engineers for the Metapix Internship Programme.
+      - company: Newron
+        position: Machine Learning Intern
+        location: ""
+        start_date: 2022-12
+        end_date: 2023-02
+        highlights:
+          - Worked with Python and Optical Character Recognition (OCR).
+      - company: FlixDrop CHMS
+        position: Data Science Intern
+        location: Bengaluru, Karnataka, India
+        start_date: 2022-04
+        end_date: 2022-06
+        highlights:
+          - Worked on various deep learning frameworks.
+          - Built an NLP-based chatbot using LSTM.
+      - company: PlotMyData
+        position: Data Science Intern
+        location: ""
+        start_date: 2022-01
+        end_date: 2022-03
+        highlights:
+          - Visualized streaming data using Python libraries (Bokeh, Streamlit).
+          - Worked on 3-D camera capture using the OpenCV library in Python.
 
     Awards:
       - label: Amazon Operational Excellence Award
@@ -69,12 +89,6 @@ cv:
       - label: VVM Sastra Pratibha
         details: 2015-04
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Languages:
       - name: Bengali
         summary: "Native speaker"
@@ -88,26 +102,71 @@ cv:
       - name: Tamil
         summary: "Beginner"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
-      - name: Deep Learning
-        date: 2018-01-01
-        issuer: DeepLearning.ai
-        icon: fa-solid fa-location-dot
+      - name: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
+        date: 2022-03-01
+        issuer: DeepLearning.AI
+        icon: fa-solid fa-brain
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Machine Learning and Image Processing
+        date: 2021-12-01
+        issuer: Cisco thingQbator - IIT (BHU)
+        icon: fa-solid fa-brain
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Practical Machine Learning using R
+        date: 2021-11-01
+        issuer: Coursera
+        icon: fa-solid fa-brain
+
+      - name: Structuring Machine Learning Projects
+        date: 2021-11-01
+        issuer: DeepLearning.AI
+        icon: fa-solid fa-brain
+
+      - name: Neural Networks and Deep Learning
+        date: 2021-10-01
+        issuer: DeepLearning.AI
+        icon: fa-solid fa-brain
+
+      - name: Visualizing Filters of a CNN using TensorFlow
+        date: 2021-09-01
+        issuer: Coursera
+        icon: fa-solid fa-brain
+
+      - name: Introduction to Machine Learning
+        date: 2021-08-01
+        issuer: Coursera
+        icon: fa-solid fa-brain
+
+      - name: Problem Solving (Intermediate)
+        date: 2022-09-01
+        issuer: HackerRank
+        icon: fa-solid fa-code
+
+      - name: Problem Solving (Basic)
+        date: 2022-09-01
+        issuer: HackerRank
+        icon: fa-solid fa-code
+
+      - name: "Personifwy: Real Time Workforce Insight & Engagement"
+        date: 2022-01-01
+        issuer: Personifwy
+        icon: fa-solid fa-certificate
+
+      - name: Data Science Internship Programme
+        date: 2022-01-01
+        issuer: 1Stop.ai
+        icon: fa-solid fa-chart-line
+
+      - name: Data Science
+        date: 2021-11-01
+        issuer: Internshala
+        icon: fa-solid fa-chart-line
+
+      - name: Learn Python Programming Masterclass
+        date: 2021-09-01
+        issuer: Udemy
+        icon: fa-brands fa-python
 
     Projects:
       - name: Music Recommendation Web App
@@ -121,12 +180,3 @@ cv:
       - name: Bullying the bully
         url: https://oshmita26.github.io/oshmita.github.io/projects/3_project/
         summary: This project aims towards conserving anti-bullying rights on social media. It is built with the objective that users of social media are not a victim of cyberbullying or trolls online. We created a NLP based discord bot using the dataset we collected from Kaggle, that takes the recent texted message from the server, runs analysis and predicts if the text is offensive to any person on the server or not. If it finds the text offensive then it deletes the text and messages the Administrator of the server to block the person that sent the message.
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: first ref
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: second ref
