@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough).
+# Local override of al_folio_core's assets/css/main.scss. It mirrors the gem's
+# @use imports verbatim so the full base stylesheet is preserved, then appends
+# site-owned fixes below. Tracked as a local override (see .al-folio-overrides.yml).
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ------------------------------------------------------------------ */
+/* Site-owned overrides                                               */
+/* ------------------------------------------------------------------ */
+
+/* CV: long locations in the narrow date column were forced onto a single
+   line by al-folio-cv.css (`p.location { white-space: nowrap }`) and spilled
+   into the main content. Allow wrapping and contain the text. The
+   `.date-column` prefix raises specificity so this wins even though
+   al-folio-cv.css loads after main.css. */
+.date-column p.location {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.2;
+}

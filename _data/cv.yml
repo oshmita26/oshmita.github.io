@@ -21,15 +21,13 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - Description 1.
-          - Description 2.
 
     Experience:
-      - company: Amazon Web services
+      - company: Amazon Web Services
         position: Software Developer
         location: Berlin, Germany
         start_date: 2025
-        end_date: present
+        end_date: Present
         highlights:
           - Making AWS Consoles robust
       - company: Forma.ai
