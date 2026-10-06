@@ -5,7 +5,7 @@ description: A personalized recommendations system that recommends you music bas
 img: assets/img/musicrecs.jpg
 importance: 2
 category: fun
-giscus_comments: true
+giscus_comments: false
 ---
 
 ## Demo
@@ -57,3 +57,7 @@ giscus_comments: true
 <div class="caption">
     A walkthrough of the K-means clustering approach used in this project.
 </div>
+
+## Source code
+
+[MLSAKIIT/Music-Recommendation-Web-App](https://github.com/MLSAKIIT/Music-Recommendation-Web-App)

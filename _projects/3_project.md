@@ -5,83 +5,41 @@ description: Anti-bullying discord chatbot
 img: assets/img/cyberbullying.jpg
 importance: 3
 category: fun
-giscus_comments: true
+giscus_comments: false
 ---
 
-## Demo
+## Overview
 
-<!--
-  Embed demo videos with al-folio's video.liquid include.
-  IMPORTANT: use the *embed* URL form, not a normal watch/share link:
-    - YouTube: https://www.youtube.com/embed/VIDEO_ID
-    - Vimeo:   https://player.vimeo.com/video/VIDEO_ID
-  Replace the placeholder URL below with your real demo link.
--->
+**Bullying-The-Bully** is an anti-cyberbullying project built to protect social-media
+users from online harassment and trolling. Cyberbullying is a serious and growing
+problem — studies have ranked India among the countries most affected, with a large
+share of young people reporting that they have experienced it. The project is a small
+initiative toward addressing this: an NLP model that classifies messages as offensive
+or non-offensive, deployed as a Discord bot that moderates servers automatically.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/VIDEO_ID" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A short walkthrough of Bullying the bully.
-</div>
+## How it works
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The bot reads recent messages on a Discord server and runs each one through an
+NLP-based classifier that predicts whether the text is offensive. When a message is
+flagged as offensive, the bot:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+1. Deletes the offending message.
+2. Creates a poll to ban the user who sent it.
+3. Bans the user automatically if the number of votes reaches a set threshold.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The classifier was trained on the
+[Malignant Comment Classification dataset](https://www.kaggle.com/surekharamireddy/malignant-comment-classification)
+from Kaggle.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technologies
 
-{% raw %}
+- **`discord.py`** — Discord bot framework and server integration
+- **`scikit-learn`** — training the NLP offensive-comment classifier
+- **Replit + UptimeRobot** — hosting the bot so it runs 24/7
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Usage
 
-{% endraw %}
+Add the bot to a Discord server via its OAuth2 invite link and grant it Administrator
+access; once added, it runs continuously and moderates messages automatically.
+
+Source code: [Pratyush-exe/antibullying-discord-bot](https://github.com/Pratyush-exe/antibullying-discord-bot)

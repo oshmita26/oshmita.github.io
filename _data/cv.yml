@@ -46,14 +46,14 @@ cv:
           - Chosen as one of the 30 AI Engineers for the Metapix Internship Programme.
       - company: Newron
         position: Machine Learning Intern
-        location: ""
+        location: Remote
         start_date: 2022-12
         end_date: 2023-02
         highlights:
           - Worked with Python and Optical Character Recognition (OCR).
       - company: FlixDrop CHMS
         position: Data Science Intern
-        location: Bengaluru, Karnataka, India
+        location: Bengaluru, India
         start_date: 2022-04
         end_date: 2022-06
         highlights:
@@ -61,7 +61,7 @@ cv:
           - Built an NLP-based chatbot using LSTM.
       - company: PlotMyData
         position: Data Science Intern
-        location: ""
+        location: Remote
         start_date: 2022-01
         end_date: 2022-03
         highlights:
@@ -69,23 +69,27 @@ cv:
           - Worked on 3-D camera capture using the OpenCV library in Python.
 
     Awards:
-      - label: Amazon Operational Excellence Award
-        details: 2026-08
+      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Operational Excellence Award'
+        awarder: Amazon
+        date: 2026-08
 
-      - label: Army Welfare Education Society - Certificate of Merit
-        details: 2020-04
+      - title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Certificate of Merit'
+        awarder: Army Welfare Education Society
+        date: 2020-04
 
-      - label: Inter-APS English Debating Championships
-        details: 2018-09
+      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Inter-APS English Debating Championships'
+        date: 2018-09
 
-      - label: The Velammal International School - Excellence in Indian Classic
-        details: 2016-01
+      - title: '<i class="fa-solid fa-award" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Excellence in Indian Classical'
+        awarder: The Velammal International School
+        date: 2016-01
 
-      - label: The Velammal International School - TVIS Student - Merit Scholar
-        details: 2016-01
+      - title: '<i class="fa-solid fa-medal" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>Merit Scholar'
+        awarder: The Velammal International School
+        date: 2016-01
 
-      - label: VVM Sastra Pratibha
-        details: 2015-04
+      - title: '<i class="fa-solid fa-trophy" style="color: var(--global-theme-color); margin-right: 0.5rem"></i>VVM Sastra Pratibha'
+        date: 2015-04
 
     Languages:
       - name: Bengali

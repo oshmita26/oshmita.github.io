@@ -5,7 +5,7 @@ description: A bot supporting pre-clinical diagnosis based on your systems
 img: assets/img/mediassist.jpg
 importance: 2
 category: fun
-giscus_comments: true
+giscus_comments: false
 ---
 
 ## Demo
@@ -37,3 +37,7 @@ giscus_comments: true
 <div class="caption">
     A short walkthrough of Medi-assist.
 </div>
+
+## Links
+
+- Source code: [shrutidebnath/medi-assist](https://github.com/shrutidebnath/medi-assist)
