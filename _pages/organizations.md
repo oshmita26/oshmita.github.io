@@ -2,7 +2,7 @@
 layout: page
 permalink: /organizations/
 title: organizations
-description: Organizations I am a part of and volunteer work I have done.
+description:
 nav: true
 nav_order: 6
 ---
@@ -13,7 +13,7 @@ nav_order: 6
   Co-founded and served as the lead for the research domain of IoT Lab, KIIT
 
 - **Lead co-ordinator** — In4mals KIIT · _2021-2023_
-  Short description of the organization and your involvement.
+  Creative writing and dance department. Participated in and won multiple inter-college events.
 
 - **Campus Ambassador** — National Engineering Olympiad · _2021_
 

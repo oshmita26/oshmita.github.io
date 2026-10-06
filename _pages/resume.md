@@ -1,7 +1,7 @@
 ================================================================================
-                                JODIE [LAST NAME]
- Berlin, Germany | jodie@email.com | github.com/jodie | linkedin.com/in/jodie
- TOEFL iBT: Band 6.0 / 6.0 | Target Specialization: AI / Visual Perception
+JODIE [LAST NAME]
+Berlin, Germany | jodie@email.com | github.com/jodie | linkedin.com/in/jodie
+TOEFL iBT: Band 6.0 / 6.0 | Target Specialization: AI / Visual Perception
 ================================================================================
 
 EDUCATION
@@ -10,8 +10,8 @@ Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar, India
 • Cumulative CGPA: 8.84 / 10.0 (~3.72 / 4.0 US Equiv. | 83.4% Marks)
 • Core CS & Math GPA: 9.45 / 10.0 (~3.90+ / 4.0 US Equiv.)
 • Key Coursework: Probability & Statistics (Grade O), Advanced Numerical
-  Techniques (Grade O), Math I & II (Grade E), Discrete Math (Grade E),
-  Design & Analysis of Algorithms, Computer Vision, Operating Systems, Python Lab (Grade O).
+Techniques (Grade O), Math I & II (Grade E), Discrete Math (Grade E),
+Design & Analysis of Algorithms, Computer Vision, Operating Systems, Python Lab (Grade O).
 
 AREAS OF REQUISITE EXPERTISE / RESEARCH INTERESTS
 • Research Focus: 3D Visual Perception, Neural World Modeling, Subpixel Motion Analysis, Self-Supervised Representations, Distributed Telemetry.
@@ -38,6 +38,7 @@ Eulerian Motion Magnification for Structural Inspection | Wabtec Exceed Competit
 • Ranked in the Top 7 Nationally out of hundreds of engineering submissions in the Wabtec Exceed Innovation Challenge.
 
 ACADEMIC PUBLICATIONS
+
 1. J. [Last Name], et al., "Resilient Automatic Number Plate Recognition (ANPR) Under Low-Light Degradations using YOLOv8 and PaddleOCR," IEEE ICICET, 2024.
 2. J. [Last Name], et al., "Quantitative Structure-Activity Relationship (QSAR) Toxicity Prediction via RDKit Descriptor Optimization and Ensemble Trees," IEEE UPCON, 2024.
 
