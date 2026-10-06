@@ -3,7 +3,6 @@ layout: page
 title: bookshelf
 permalink: /books/
 nav: false
-covers: /assets/img/book_covers/
 ---
 
 > Sometimes I think heaven must be one continuous unexhausted reading.
@@ -34,7 +33,7 @@ NOTE: HTML lines below are intentionally NOT indented. Kramdown treats lines ind
 <figure class="cover">
 <a class="cover-link" href="{{ item.url | relative_url }}">
 {% if item.cover %}
-<img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px" />
+<img alt="{{ item.title }} cover" src="{{ item.cover | relative_url }}" style="height:200px" />
 {% elsif item.olid %}
 <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px" />
 {% elsif item.isbn %}

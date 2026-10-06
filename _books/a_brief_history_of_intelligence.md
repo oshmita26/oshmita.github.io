@@ -4,7 +4,7 @@ title: A Brief History of Intelligence
 author: Max Bennett
 shelf: favorites
 status: Finished
-cover: brief_history_of_intelligence.jpg
+cover: assets/img/book_covers/brief_history_of_intelligence.jpg
 ---
 
 Humans, AI, and the Five Breakthroughs That Made Our Brains.
