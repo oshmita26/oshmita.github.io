@@ -11,16 +11,24 @@ giscus_comments: true
 ## Demo
 
 <!--
-  Embed demo videos with al-folio's video.liquid include.
-  IMPORTANT: use the *embed* URL form, not a normal watch/share link:
-    - YouTube: https://www.youtube.com/embed/VIDEO_ID
-    - Vimeo:   https://player.vimeo.com/video/VIDEO_ID
-  Replace the placeholder URL below with your real demo link.
+  Demo hosted on Google Drive. Drive files can't use al-folio's video.liquid include
+  (that builds a YouTube/Vimeo-style iframe), so we embed Drive's own /preview player.
+  Requirement: the Drive file's sharing must be "Anyone with the link - Viewer",
+  otherwise visitors hit a sign-in wall.
+  To swap the video, replace the FILE_ID in the /preview URL below.
 -->
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/VIDEO_ID" class="img-fluid rounded z-depth-1" %}
+        <div class="ratio ratio-16x9 rounded z-depth-1">
+            <iframe
+                src="https://drive.google.com/file/d/1FavvLiP0YwIgycfxmayTEbSrLa2cp0MM/preview"
+                title="Music recommendations web app demo"
+                allow="autoplay"
+                allowfullscreen
+                loading="lazy"
+            ></iframe>
+        </div>
     </div>
 </div>
 <div class="caption">
