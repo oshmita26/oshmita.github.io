@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /organizations/
-title:
+title: organizations
 description: Organizations I am a part of and volunteer work I have done.
 nav: true
 nav_order: 6
